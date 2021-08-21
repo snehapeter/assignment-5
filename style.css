@@ -1,0 +1,129 @@
+
+ 
+
+body{
+    width: 47%;
+    position:fixed;
+    font-family: Arial,sans-serif;
+    background-image: url"C:\Users\suraj\Desktop\snehaassignment\assignment-5\images\flipkart.jpeg";
+    background-position: center;
+    background-color: gray;
+
+   
+}
+hr{
+      
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border: darkgrey;
+}
+
+
+  
+
+p{
+    margin: 0;
+    padding:14px 0;
+}
+    nav { 
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    padding: 0 10%;
+    padding-right: 0;
+    padding-left: 15%;
+}
+  
+.dialog-box{
+    display: flex;
+      
+    background-color: white;
+    position: fixed;
+    left: 350px;
+    
+    top: 100px;
+    width: 600px;
+    height: 480px;
+    border-radius: 4px;
+      
+}
+.x{position: fixed; 
+    color: white;
+      
+    font-size: 40px;
+     
+    top:75px;
+    left:960px;
+}
+   
+.black{background-color: white;
+}
+.pics, nav,.black{
+    filter: brightness(50%);
+}
+.row1{
+      background-color: #2159EC;
+  color:#FDEEFE;
+}
+.login{  
+  padding-left:8%;
+  font-size: 30px;
+}
+.login-desc{
+  
+    padding-left:8%;
+    font-size:16px;
+}
+.right-side{
+    color: #9D9D9D;
+    padding:3% 5% 5% 5%; ;
+}
+.no-border-input{
+    padding: 6px 0;;
+  width:100%;
+    border: 0;
+    border-bottom: #9D9D9D solid 2px;
+  
+}
+.no-border-input:hover{
+  border-bottom: #2159EC solid 2px;
+}
+.no-border-input:active{
+    border: none;
+    border-bottom: #2159EC solid 2px;
+}
+.blue-col{
+    color:#2159EC;
+    font-weight: bold;
+    width:300px;
+}
+input:focus, textarea:focus, select:focus{
+outline: none;
+}
+.login-btn{background-color: #FB641B;
+}
+.otp-btn{
+  background-color: white;
+  box-shadow: 
+  0px 2px 14px grey;
+}
+button{
+    height: 48px;
+    width: 100%;
+  overflow: hidden ;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+    padding: 10px;
+    border: 0px;
+    border-radius: 4px;
+}
+.close-btn:after{
+    display: inline-block;
+    content: "\00d7"; 
+    font-size: 40px;
+    color: #9D9D9D;
+}
